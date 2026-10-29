@@ -1,0 +1,387 @@
+body {
+    background-color: #0b1210;
+    color: #eadbd5;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* main top area */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 1010px;
+    margin: 28px auto;
+}
+
+.sagesloth {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.navigatie {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.homebutton {
+    color: #eadbd5;
+    text-decoration: none;
+}
+
+.practicebutton {
+    color: #a8d672;
+}
+
+.aboutbutton {
+    color: #eadbd5;
+    text-decoration: none;
+}
+
+.contactbutton {
+    color: #eadbd5;
+    text-decoration: none;
+}
+
+.loginbutton {
+    background: #192b24;
+    border-radius: 10px;
+    padding: 12px 24px;
+}
+
+
+/* lower part of main area */
+
+.lowerheaderbox {
+    display: flex;
+    width: 1010px;
+    margin: 100px auto 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lowerheader {
+    width: 470px;
+}
+
+.mindfullness {
+    color: #70d6b2;
+    text-transform: uppercase;
+
+    padding: 8px;
+
+    font-size: 12px;
+    letter-spacing: 1px;
+    width: auto;
+}
+
+.small {
+    font-size: 64px;
+    line-height: 1.08;
+    margin-top: 25px;
+}
+
+.six {
+    color: #aa9c96;
+
+    font-size: 20px;
+    line-height: 1.55;
+
+    margin-top: 22px;
+}
+
+.imagebox {
+    position: relative;
+    width: 500px;
+    height: 475px;
+}
+
+.imagebox img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 28px;
+}
+
+
+/* second page main area */
+
+.header2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 1010px;
+    margin: 100px auto;
+}
+
+.choose {
+    font-size: 37px;
+    margin: 12px;
+}
+
+.streaks {
+    font-size: 15px;
+    color: #9eaa9e;
+    margin: 12px;
+}
+
+.quests {
+    font-size: 13px;
+    color: #53645c;
+    margin: 12px;
+}
+
+
+/* quest filters */
+
+.questfilters {
+    display: flex;
+    gap: 10px;
+
+    width: 1010px;
+    margin: 0 auto 45px;
+}
+
+.questfilters div {
+    background-color: #192b24;
+    border-radius: 999px;
+
+    padding: 8px 14px;
+
+    color: #9eaa9e;
+    font-size: 12px;
+}
+
+.questfilters .filteractive {
+    background-color: #a8d672;
+    color: #19352c;
+}
+
+
+/* quest grid */
+
+.questgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+
+    width: 1010px;
+    margin: 0 auto 100px;
+}
+
+.questcard {
+    background-color: #142c24;
+    border: 1px solid #29433a;
+    border-radius: 22px;
+
+    min-height: 210px;
+
+    padding: 28px;
+    box-sizing: border-box;
+}
+
+.questtop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.questicon {
+    width: 40px;
+    height: 40px;
+
+    border-radius: 12px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 22px;
+}
+
+.questicon.purple {
+    background-color: #bba7ff;
+    color: #19352c;
+}
+
+.questicon.green {
+    background-color: #a8d672;
+    color: #19352c;
+}
+
+.questicon.orange {
+    background-color: #ffb18e;
+    color: #19352c;
+}
+
+.questicon.cyan {
+    background-color: #70d6b2;
+    color: #19352c;
+}
+
+.questicon.yellow {
+    background-color: #e6d94c;
+    color: #19352c;
+}
+
+.questicon.white {
+    background-color: #eadbd5;
+    color: #19352c;
+}
+
+.questtime {
+    color: #9eaa9e;
+    font-size: 11px;
+}
+
+.questname {
+    font-size: 20px;
+    margin-top: 14px;
+}
+
+.difficulty {
+    display: inline-block;
+
+    background-color: #0b1512;
+    border-radius: 999px;
+
+    padding: 5px 9px;
+
+    color: #a8d672;
+    font-size: 10px;
+
+    margin-top: 10px;
+}
+
+.questdescription {
+    color: #9eaa9e;
+    font-size: 14px;
+    line-height: 1.5;
+
+    margin-top: 14px;
+}
+
+.startquest {
+    color: #a8d672;
+    font-size: 10px;
+    letter-spacing: 1px;
+
+    margin-top: 14px;
+}
+
+
+/* pace section */
+
+.pacebox {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+
+    width: 1010px;
+    margin: 100px auto;
+
+    background-color: #142c24;
+    border: 1px solid #29433a;
+    border-radius: 22px;
+
+    padding: 28px;
+    box-sizing: border-box;
+}
+
+.pacepercent {
+    width: 110px;
+    height: 110px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #bba7ff;
+    border-radius: 22px;
+
+    color: #19352c;
+    font-size: 40px;
+}
+
+.pacecontent {
+    flex: 1;
+}
+
+.pacetitle {
+    font-size: 32px;
+}
+
+.pacetext {
+    color: #9ca9a3;
+    font-size: 16px;
+
+    margin-top: 12px;
+}
+
+.pacestart {
+    display: inline-block;
+
+    background-color: #a8d672;
+    color: #19352c;
+
+    border-radius: 10px;
+
+    padding: 10px 18px;
+
+    font-size: 13px;
+
+    margin-top: 14px;
+}
+
+
+/* footer */
+
+.footerbackground {
+    background-color: #10211b;
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 1010px;
+    margin: 100px auto 0;
+
+    padding: 50px 0;
+
+    color: #eadbd5;
+}
+
+.footername {
+    font-size: 26px;
+}
+
+.footertext {
+    color: #9ca9a3;
+    font-size: 14px;
+
+    margin-top: 10px;
+}
+
+.socials {
+    display: flex;
+    gap: 30px;
+
+    font-size: 28px;
+}
+
+.socials i {
+    color: #eadbd5;
+}
+
+.copyright {
+    color: #66736d;
+    font-size: 11px;
+    letter-spacing: 1px;
+}

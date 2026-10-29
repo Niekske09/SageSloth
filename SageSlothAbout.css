@@ -1,0 +1,435 @@
+body {
+    background-color: #0b1210;
+    color: #eadbd5;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Main top area */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 1010px;
+    margin: 28px auto;
+}
+
+.sagesloth {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.navigatie {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.aboutbutton {
+    color: #a8d672;
+}
+
+.homebutton {
+    color: #eadbd5;
+    text-decoration: none;
+}
+
+.practicebutton {
+    color: #eadbd5;
+    text-decoration: none;
+}
+
+.contactbutton {
+    color: #eadbd5;
+    text-decoration: none;
+}
+
+.loginbutton {
+    background: #192b24;
+    border-radius: 10px;
+    padding: 12px 24px;
+}
+
+/* Hero section */
+
+.lowerheaderbox {
+    display: flex;
+    width: 1010px;
+    margin: 100px auto 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lowerheader {
+    width: 470px;
+}
+
+.origin {
+    color: #70d6b2;
+    text-transform: uppercase;
+    padding: 8px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    width: auto;
+}
+
+.gaming {
+    font-size: 64px;
+    line-height: 1.08;
+    margin-top: 25px;
+}
+
+.beginner {
+    color: #aa9c96;
+    font-size: 20px;
+    line-height: 1.55;
+    margin-top: 22px;
+}
+
+.calm {
+    display: inline-block;
+    background-color: #a8d672;
+    border-radius: 9999px;
+    color: black;
+    padding: 8px 14px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    width: auto;
+}
+
+.imagebox {
+    position: relative;
+    width: 500px;
+    height: 475px;
+}
+
+.imagebox img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 28px;
+}
+
+/* Principles section background */
+
+.principlessection {
+    background-color: #13201b;
+    width: 100%;
+    padding: 40px 0 1px;
+    margin-top: 100px;
+}
+
+/* Principles heading */
+
+.header2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 1010px;
+    margin: 0 auto;
+}
+
+.play {
+    color: #ffb18e;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.three {
+    font-size: 32px;
+    margin-top: 8px;
+}
+
+/* Principle cards container */
+
+.principles {
+    display: flex;
+    gap: 18px;
+
+    width: 1010px;
+    margin: 35px auto 60px;
+}
+
+/* Individual principle cards */
+
+.principle {
+    background-color: #19352c;
+    border: 1px solid #29433a;
+    border-radius: 18px;
+
+    width: 33.333%;
+    min-height: 210px;
+
+    padding: 28px;
+    box-sizing: border-box;
+}
+
+.number {
+    width: 38px;
+    height: 38px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 12px;
+
+    color: #19352c;
+    font-size: 16px;
+}
+
+.number.green {
+    background-color: #a8d672;
+}
+
+.number.purple {
+    background-color: #bba7ff;
+}
+
+.number.orange {
+    background-color: #ffb18e;
+}
+
+.principletitle {
+    font-size: 18px;
+    margin-top: 18px;
+}
+
+.principledescription {
+    color: #9ca9a3;
+    font-size: 13px;
+    line-height: 1.5;
+    margin-top: 16px;
+}
+
+/* Meet your party section */
+
+.people {
+    width: 880px;
+    margin: 100px auto 70px;
+}
+
+/* Party heading */
+
+.party {
+    margin-bottom: 36px;
+}
+
+.meet {
+    color: #70d6b2;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.guides {
+    font-size: 34px;
+    line-height: 1.2;
+    margin-top: 12px;
+}
+
+.built {
+    color: #9ca9a3;
+    font-size: 13px;
+    line-height: 1.5;
+    margin-top: 12px;
+}
+
+/* Three portrait cards */
+
+.pictures {
+    display: flex;
+    gap: 18px;
+    align-items: stretch;
+}
+
+.person {
+    flex: 1;
+    min-width: 0;
+    min-height: 370px;
+
+    padding: 12px;
+    box-sizing: border-box;
+
+    border-radius: 20px;
+    color: #111a16;
+}
+
+.mara {
+    background-color: #a8d672;
+}
+
+.dev {
+    background-color: #bba7ff;
+}
+
+.sol {
+    background-color: #ffb18e;
+}
+
+/* Portrait images */
+
+.person img {
+    display: block;
+
+    width: 100%;
+    height: 196px;
+
+    object-fit: cover;
+    object-position: center;
+
+    border-radius: 13px;
+}
+
+/* Names, roles, and descriptions */
+
+.personname {
+    font-size: 18px;
+    margin: 12px 12px 0;
+}
+
+.personrole {
+    font-size: 9px;
+    margin: 10px 12px 0;
+    letter-spacing: 0.2px;
+}
+
+.persondescription {
+    font-size: 11px;
+    line-height: 1.5;
+    margin: 9px 12px 0;
+}
+
+/* Notes from the guild section */
+
+.notes {
+    width: 880px;
+    margin: 100px auto 70px;
+}
+
+/* Notes heading */
+
+.notesheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 35px;
+}
+
+.notestitle {
+    font-size: 34px;
+    line-height: 1.2;
+}
+
+.allnotes {
+    color: #9ca9a3;
+    font-size: 11px;
+}
+
+/* Three article cards */
+
+.notescards {
+    display: flex;
+    gap: 18px;
+    align-items: stretch;
+}
+
+.notecard {
+    flex: 1;
+    min-width: 0;
+    min-height: 222px;
+
+    padding: 26px;
+    box-sizing: border-box;
+
+    border-radius: 20px;
+    color: #172019;
+}
+
+.mint {
+    background-color: #70d6b2;
+}
+
+.lavender {
+    background-color: #bba7ff;
+}
+
+.yellow {
+    background-color: #e9df65;
+}
+
+/* Article text */
+
+.notescategory {
+    font-size: 10px;
+    letter-spacing: 0.2px;
+}
+
+.notecardtitle {
+    font-size: 20px;
+    line-height: 1.25;
+    margin-top: 12px;
+}
+
+.notesdescription {
+    font-size: 12px;
+    line-height: 1.5;
+    margin-top: 12px;
+}
+
+.readnote {
+    font-size: 11px;
+    margin-top: 12px;
+}
+
+/* footer */
+
+.footerbackground {
+    background-color: #10211b;
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 1010px;
+    margin: 100px auto 0;
+
+    padding: 50px 0;
+
+    color: #eadbd5;
+}
+
+.footername {
+    font-size: 26px;
+}
+
+.footertext {
+    color: #9ca9a3;
+    font-size: 14px;
+
+    margin-top: 10px;
+}
+
+.socials {
+    display: flex;
+    gap: 30px;
+
+    font-size: 28px;
+}
+
+.socials i {
+    color: #eadbd5;
+}
+
+.copyright {
+    color: #66736d;
+    font-size: 11px;
+    letter-spacing: 1px;
+}

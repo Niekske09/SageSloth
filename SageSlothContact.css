@@ -1,0 +1,343 @@
+body {
+    background-color: #0b1210;
+    color: #eadbd5;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Main top area */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 1010px;
+    margin: 28px auto;
+}
+
+.sagesloth {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.navigatie {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.aboutbutton {
+    color: #eadbd5;
+    text-decoration: none;
+}
+
+.homebutton {
+    color: #eadbd5;
+    text-decoration: none;
+}
+
+.practicebutton {
+    color: #eadbd5;
+    text-decoration: none;
+}
+
+.contactbutton {
+    color: #a8d672;
+}
+
+.loginbutton {
+    background: #192b24;
+    border-radius: 10px;
+    padding: 12px 24px;
+}
+
+/* Contact hero section */
+
+.contacthero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    margin-top: 120px;
+}
+
+/* Online badge */
+
+.onlinebadge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+
+    background-color: #13201b;
+    border: 1px solid #29433a;
+    border-radius: 8px;
+
+    padding: 8px 12px;
+
+    color: #70d6b2;
+    font-family: monospace;
+    font-size: 10px;
+    letter-spacing: 0.3px;
+}
+
+.onlinedot {
+    color: #70d6b2;
+    font-size: 12px;
+}
+
+/* Main heading */
+
+.contacttitle {
+    width: 710px;
+    margin-top: 18px;
+
+    font-size: 46px;
+    line-height: 1.05;
+}
+
+/* Description */
+
+.contactdescription {
+    width: 550px;
+    margin-top: 18px;
+
+    color: #9ca9a3;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Contact options */
+
+.contactoptions {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+
+    margin-top: 35px;
+}
+
+.contactcard {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    width: 252px;
+    min-height: 76px;
+
+    padding: 12px;
+    box-sizing: border-box;
+
+    border-radius: 14px;
+    color: #172019;
+}
+
+.emailcard {
+    background-color: #a8d672;
+}
+
+.discordcard {
+    background-color: #bba7ff;
+}
+
+/* Contact icons */
+
+.contacticon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-shrink: 0;
+    width: 44px;
+    height: 44px;
+
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.08);
+}
+
+.contacticon i {
+    font-size: 22px;
+}
+
+.contactname {
+    font-size: 14px;
+}
+
+.contactdetail {
+    color: #526052;
+    font-size: 11px;
+    margin-top: 5px;
+}
+
+/* Contact message form */
+
+.messagebox {
+    width: 692px;
+    box-sizing: border-box;
+    margin: 70px auto 90px;
+    padding: 44px;
+
+    background-color: #19352c;
+    border-radius: 28px;
+    color: #eadbd5;
+}
+
+.formlabel {
+    color: #ffb18e;
+    font-size: 10px;
+    letter-spacing: 0.5px;
+}
+
+.formtitle {
+    font-size: 34px;
+    margin-top: 10px;
+}
+
+.formdescription {
+    color: #9ca9a3;
+    font-size: 13px;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+.contactform {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-top: 20px;
+}
+
+.formrow {
+    display: flex;
+    gap: 12px;
+}
+
+.formrow input {
+    flex: 1;
+    min-width: 0;
+}
+
+.contactform input,
+.contactform textarea,
+.contactform select {
+    width: 100%;
+    box-sizing: border-box;
+
+    padding: 16px 18px;
+    border: 2px solid #29433a;
+    border-radius: 13px;
+
+    background-color: #10211b;
+    color: #eadbd5;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+.contactform input::placeholder,
+.contactform textarea::placeholder {
+    color: #52645b;
+}
+
+.contactform textarea {
+    height: 144px;
+    resize: vertical;
+}
+
+.contactform select {
+    color: #9ca9a3;
+    cursor: pointer;
+}
+
+.contactform select option {
+    background-color: #10211b;
+    color: #eadbd5;
+}
+
+.contactform input:focus,
+.contactform textarea:focus,
+.contactform select:focus {
+    outline: 2px solid #70d6b2;
+    outline-offset: 2px;
+}
+
+.formbottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.formnote {
+    color: #9ca9a3;
+    font-size: 11px;
+    line-height: 1.5;
+    max-width: 340px;
+}
+
+.sendbutton {
+    flex-shrink: 0;
+    padding: 15px 24px;
+
+    border: none;
+    border-radius: 14px;
+
+    background-color: #a8d672;
+    color: #172019;
+
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.sendbutton:hover {
+    background-color: #b8e38a;
+}
+
+/* footer */
+
+.footerbackground {
+    background-color: #10211b;
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 1010px;
+    margin: 100px auto 0;
+
+    padding: 50px 0;
+
+    color: #eadbd5;
+}
+
+.footername {
+    font-size: 26px;
+}
+
+.footertext {
+    color: #9ca9a3;
+    font-size: 14px;
+
+    margin-top: 10px;
+}
+
+.socials {
+    display: flex;
+    gap: 30px;
+
+    font-size: 28px;
+}
+
+.socials i {
+    color: #eadbd5;
+}
+
+.copyright {
+    color: #66736d;
+    font-size: 11px;
+    letter-spacing: 1px;
+}
